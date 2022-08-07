@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "./static/css/main.29aa33e1.css",
-    "main.js": "./static/js/main.a077a00e.js",
-    "static/media/React-icon.png": "./static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
-    "static/media/telegram.png": "./static/media/telegram.1b10e322db2abb437b8d.png",
-    "static/media/linkedin.svg": "./static/media/linkedin.b5438c1f9fe29dc7c1cb18f42130bf4e.svg",
-    "static/media/github.svg": "./static/media/github.fc0ffe042a9582d2a394e1c609baa9f2.svg",
-    "index.html": "./index.html",
-    "main.29aa33e1.css.map": "./static/css/main.29aa33e1.css.map",
-    "main.a077a00e.js.map": "./static/js/main.a077a00e.js.map"
+    "main.css": "/static-react-website/static/css/main.acb83cf3.css",
+    "main.js": "/static-react-website/static/js/main.015f75e6.js",
+    "static/media/React-icon.png": "/static-react-website/static/media/React-icon.8a6fc0a24a800d1e0f4a.png",
+    "static/media/telegram.png": "/static-react-website/static/media/telegram.1b10e322db2abb437b8d.png",
+    "static/media/linkedin.svg": "/static-react-website/static/media/linkedin.b5438c1f9fe29dc7c1cb18f42130bf4e.svg",
+    "static/media/github.svg": "/static-react-website/static/media/github.fc0ffe042a9582d2a394e1c609baa9f2.svg",
+    "index.html": "/static-react-website/index.html",
+    "main.acb83cf3.css.map": "/static-react-website/static/css/main.acb83cf3.css.map",
+    "main.015f75e6.js.map": "/static-react-website/static/js/main.015f75e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.29aa33e1.css",
-    "static/js/main.a077a00e.js"
+    "static/css/main.acb83cf3.css",
+    "static/js/main.015f75e6.js"
   ]
 }

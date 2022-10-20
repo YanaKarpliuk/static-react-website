@@ -1,38 +1,52 @@
 :root {
   --blue-color: #61dafb;
-  --react-black-color: #21222A;
+  --react-black-color: #21222a;
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   padding: 100px;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
 }
 
 .container {
   width: 600px;
   height: 555px;
-  box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.92);
+  box-shadow: 0px 0px 20px -2px rgba(0, 0, 0, 0.92);
   position: relative;
+  background-image: url(./images/React-icon.png);
+  background-repeat: no-repeat;
+  background-position-x: 150%;
+  background-position-y: 55%;
+  background-size: 300px;
+}
+
+.dark {
+  background-color: #282d35;
+  color: white;
 }
 
 /* Header */
-
-.nav {
-  padding: 20px;
+header {
+  background-color: var(--react-black-color);
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
   align-items: center;
-  background-color: var(--react-black-color);
 }
 
 .nav-items {
@@ -63,15 +77,71 @@ html, body {
   text-decoration: none;
 }
 
+.toggler {
+  display: flex;
+  align-items: center;
+  background-color: var(--react-black-color);
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.toggler--slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2b283a;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.dark .toggler--slider {
+  border-color: white;
+  background-color: #f5f5f5;
+}
+
+.toggler--slider--circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dark .toggler--slider--circle {
+  background-color: black;
+}
+
+.toggler--light {
+  color: white;
+}
+
+.dark .toggler--light {
+  color: #918e9b;
+}
+
+.toggler--dark {
+  color: #d5d4d8;
+}
+
+.dark .toggler--dark {
+  color: #ffffff;
+}
+
+.dark .toggler--slider {
+  justify-content: flex-end;
+}
+
 /* Main Content */
 
-.main-content{
+.main-content {
   padding: 20px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.315)), url(./images/React-icon.png);
-  background-repeat: no-repeat;
-  background-position-x: 150%;
-  background-position-y: 75%;
-  background-size: 300px;
 }
 
 .love-react-list > li {
@@ -80,7 +150,7 @@ html, body {
 
 /* Footer */
 
-.footer{
+.footer {
   padding: 20px;
   background-color: var(--react-black-color);
   color: white;
@@ -99,9 +169,9 @@ html, body {
 
 .facts-list li::before {
   content: "\2022";
-  color: var(--blue-color); 
-  font-weight: bold; 
-  display: inline-block; 
+  color: var(--blue-color);
+  font-weight: bold;
+  display: inline-block;
   width: 1em;
   margin-left: -1em;
 }
@@ -117,9 +187,18 @@ html, body {
   margin: 0;
 }
 
-.sm-icon {
-  width: 50px;
+.sm-list li {
+  background-color: white;
+  border-radius: 50%;
   margin-right: 15px;
+  height: 54px;
+  width: 54px;
+  display: flex;
+  align-items: center;
+}
+
+.sm-icon {
+  width: 55px;
 }
 
 .sm-icon:hover {

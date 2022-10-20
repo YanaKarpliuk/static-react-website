@@ -1,4 +1,4 @@
-export default function MainPage() {
+export default function MainPage(props) {
   return (
     <div className="main-content">
       <h1>My awesome website in React</h1>

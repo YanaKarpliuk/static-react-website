@@ -3,6 +3,10 @@
   --react-black-color: #21222A;
 }
 
+*{
+  box-sizing: border-box;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -16,7 +20,9 @@ html, body {
 
 .container {
   width: 600px;
+  height: 555px;
   box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.92);
+  position: relative;
 }
 
 /* Header */
@@ -54,13 +60,14 @@ html, body {
 
 .active {
   color: var(--blue-color);
+  text-decoration: none;
 }
 
 /* Main Content */
 
 .main-content{
   padding: 20px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.315)), url(./React-icon.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.315)), url(./images/React-icon.png);
   background-repeat: no-repeat;
   background-position-x: 150%;
   background-position-y: 75%;
@@ -77,6 +84,11 @@ html, body {
   padding: 20px;
   background-color: var(--react-black-color);
   color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 /* Facts Content */

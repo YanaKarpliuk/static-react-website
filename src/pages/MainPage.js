@@ -1,13 +1,14 @@
-import Footer from "../Footer";
-import Header from "../Header";
-import MainContent from "../MainContent";
-
 export default function MainPage() {
   return (
-    <div className="container">
-      <Header />
-      <MainContent />
-      <Footer />
+    <div className="main-content">
+      <h1>My awesome website in React</h1>
+      <h2>Reasons I ❤️ React</h2>
+      <ol className="love-react-list">
+        <li>It's composable</li>
+        <li>It's declarative</li>
+        <li>It's a hireable skill</li>
+        <li>It's actively maintained by skilled people</li>
+      </ol>
     </div>
-  )
+  );
 }
